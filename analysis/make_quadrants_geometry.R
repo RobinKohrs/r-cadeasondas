@@ -11,7 +11,7 @@ library(geojsonio)
 
 
 # paths -------------------------------------------------------------------
-w = read_sf("../../../js/2023/mySurf/static/data/geo/topo_sections.json")  %>%
+w = read_sf("../../../js/2023/cadeasondas/static/data/geo/topo_sections.json")  %>%
   mutate(
     id = case_when(
       region == "nw" ~ 1,
