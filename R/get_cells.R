@@ -54,8 +54,8 @@ build_cells = function(n){
       south = 90 - y * y_spacing
 
 
-      east =  (-180) + ((x - 1) * x_spacing)
-      west = -180 + x * x_spacing
+      west =  (-180) + ((x - 1) * x_spacing)
+      east = -180 + x * x_spacing
 
       cell = list(
         north = north,

@@ -8,11 +8,14 @@ library(lubridate)
 
 
 # dirs for the final data -------------------------------------------------
+base_dir = here("data_raw/surfdata")
+
+
 dirs =
   list(
-    raw_data = c("~/data/surfdata/per_day"),
-    per_spot_raw = c("~/data/surfdata/per_spot"),
-    per_spot_clean = c("~/data/surfdata/per_spot_clean")
+    raw_data = here(base_dir, "per_day"),
+    per_spot_raw = here(base_dir, "per_spot"),
+    per_spot_clean = here(base_dir, "per_spot_clean")
   )
 
 walk(dirs, function(d) {
@@ -25,6 +28,14 @@ walk(dirs, function(d) {
 # get the cells -----------------------------------------------------------
 cells = rondas::get_cells(4*4*4)
 
+# hawaii = list(y=19.8,x=-155.8)
+# map(cells, function(c){
+#  return(hawaii$y > c$south &&
+#     hawaii$y < c$north &&
+#     hawaii$x > c$west &&
+#     hawaii$x < c$east)
+# })
+
 # safe version of queriying data ------------------------------------------
 safe_fromJSON = purrr::safely(fromJSON)
 
@@ -32,7 +43,6 @@ safe_fromJSON = purrr::safely(fromJSON)
 regions_data = vector("list", length(length(cells)))
 
 for(i in seq_along(cells)){
-  print(i)
 
   # cell
   cell = cells[[i]]
@@ -88,7 +98,7 @@ saveRDS(all, op)
 per_spot_files = dir(dirs$per_spot_raw, "*")
 
 if (length(per_spot_files) > 0) {
-  rondas::format_data_per_spot(dirs$raw_data, last_file = op)
+  rondas::format_data_per_spot(dirs$raw_data, dir_spots_raw = dirs$per_spot_raw, last_file = op)
 } else{
   rondas::format_data_per_spot(dirs$raw_data, dir_spots_raw=dirs$per_spot_raw)
 }

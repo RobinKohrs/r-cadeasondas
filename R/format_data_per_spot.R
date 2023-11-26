@@ -19,7 +19,7 @@ format_data_per_spot = function(dir_raw_data, dir_spots_raw=NULL, last_file=NULL
   }else{
     files = dir(dir_raw_data, ".*\\.Rds", full.names = T)
     output_files = dir(dir_spots_raw, "*", full.names = T)
-    unlink(output_files)
+    unlink
   }
 
 
