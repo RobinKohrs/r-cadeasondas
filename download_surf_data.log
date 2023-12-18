@@ -1,0 +1,912 @@
+Fatal error: cannot open file '/home/robin/projects/personal/r/2023/rondas/analysis/download_surf_data.R': No such file or directory
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.2     ✔ readr     2.1.4
+✔ forcats   1.0.0     ✔ stringr   1.5.0
+✔ ggplot2   3.4.2     ✔ tibble    3.2.1
+✔ lubridate 1.9.2     ✔ tidyr     1.3.0
+✔ purrr     1.0.1     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+here() starts at /home/robin
+Linking to GEOS 3.10.2, GDAL 3.4.1, PROJ 8.2.1; sf_use_s2() is TRUE
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Loading required package: usethis
+Run at: 2023-12-10 09:44:03
+Warning message:
+In open.connection(con, "rb") :
+  cannot open URL 'https://services.surfline.com/kbyg/mapview?south=0&west=-90&north=22.5&east=-45': HTTP status was '500 Internal Server Error'
+There were 23 warnings (use warnings() to see them)
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.2     ✔ readr     2.1.4
+✔ forcats   1.0.0     ✔ stringr   1.5.0
+✔ ggplot2   3.4.2     ✔ tibble    3.2.1
+✔ lubridate 1.9.2     ✔ tidyr     1.3.0
+✔ purrr     1.0.1     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+here() starts at /home/robin
+Linking to GEOS 3.10.2, GDAL 3.4.1, PROJ 8.2.1; sf_use_s2() is TRUE
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Loading required package: usethis
+Run at: 2023-12-10 10:02:03
+Warning message:
+In open.connection(con, "rb") :
+  cannot open URL 'https://services.surfline.com/kbyg/mapview?south=0&west=-90&north=22.5&east=-45': HTTP status was '500 Internal Server Error'
+There were 26 warnings (use warnings() to see them)
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-10 11:02:03
+There were 25 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-10 12:02:03
+There were 25 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-10 13:02:03
+There were 25 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-10 14:02:04
+There were 27 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-10 16:02:04
+There were 26 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-10 17:02:05
+There were 27 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-10 18:02:03
+There were 26 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-10 19:02:03
+There were 27 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-10 20:02:03
+There were 27 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-10 21:02:03
+There were 26 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-10 22:02:03
+There were 27 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-10 23:02:03
+There were 30 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-11 09:02:03
+There were 24 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-11 10:02:03
+There were 31 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-11 11:02:03
+There were 28 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-11 12:02:04
+There were 30 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-11 13:02:04
+There were 34 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-11 14:02:03
+There were 41 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-11 15:02:03
+There were 41 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-11 16:02:04
+There were 38 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-11 18:02:03
+There were 32 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-11 19:02:04
+There were 30 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-11 20:02:03
+There were 36 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-11 21:02:03
+There were 35 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-11 22:02:03
+There were 36 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-11 23:02:03
+There were 39 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-12 08:02:03
+There were 30 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-12 09:02:03
+There were 30 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-12 10:02:04
+There were 34 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-12 11:02:03
+There were 36 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-12 12:02:04
+There were 32 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-12 13:02:04
+There were 31 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-12 14:02:11
+There were 35 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-12 15:02:03
+There were 33 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-12 16:02:03
+There were 28 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-12 17:02:04
+There were 32 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-12 19:02:03
+There were 29 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-12 20:02:03
+There were 30 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-12 21:02:03
+There were 30 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-12 22:02:03
+There were 29 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-12 23:02:04
+There were 28 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-13 00:02:03
+There were 28 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-13 08:02:03
+There were 37 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-13 10:02:04
+There were 34 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-13 11:02:03
+There were 30 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-13 12:02:03
+There were 31 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-13 17:02:03
+There were 19 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-13 18:02:03
+There were 18 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-13 19:02:03
+There were 25 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-13 20:02:03
+There were 26 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-13 21:02:03
+There were 26 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-13 22:02:03
+There were 28 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-13 23:02:04
+There were 27 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-14 08:02:03
+There were 28 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-14 10:02:03
+There were 27 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-14 11:02:03
+There were 22 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-14 12:02:03
+There were 24 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-14 13:02:03
+There were 25 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-14 14:02:03
+There were 24 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-14 15:02:03
+There were 25 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-14 16:02:03
+There were 25 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-14 17:02:03
+There were 27 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-15 11:02:03
+There were 21 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-15 14:02:03
+There were 19 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-15 15:02:03
+There were 19 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-15 16:02:03
+Warning message:
+There was 1 warning in `filter()`.
+ℹ In argument: `case_when(...)`.
+Caused by warning in `min()`:
+! no non-missing arguments to min; returning Inf 
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-17 11:02:56
+Warning messages:
+1: There was 1 warning in `filter()`.
+ℹ In argument: `case_when(...)`.
+Caused by warning in `min()`:
+! no non-missing arguments to min; returning Inf 
+2: There was 1 warning in `filter()`.
+ℹ In argument: `case_when(...)`.
+Caused by warning in `min()`:
+! no non-missing arguments to min; returning Inf 
+3: There was 1 warning in `filter()`.
+ℹ In argument: `case_when(...)`.
+Caused by warning in `min()`:
+! no non-missing arguments to min; returning Inf 
+4: There was 1 warning in `filter()`.
+ℹ In argument: `case_when(...)`.
+Caused by warning in `min()`:
+! no non-missing arguments to min; returning Inf 
+5: There was 1 warning in `filter()`.
+ℹ In argument: `case_when(...)`.
+Caused by warning in `min()`:
+! no non-missing arguments to min; returning Inf 
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-17 22:02:03
+There were 14 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-17 23:02:03
+There were 11 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-18 09:46:03
+There were 23 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-18 11:46:03
+There were 19 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-18 12:46:03
+There were 22 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-18 15:06:03
+There were 19 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-18 16:06:03
+There were 20 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-18 17:06:03
+There were 24 warnings (use warnings() to see them)
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2023-12-18 20:06:03
+Warning message:
+Unknown or uninitialised column: `_id`. 
+Done!
+
