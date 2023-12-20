@@ -1,3 +1,12 @@
+#' Prepare Monthly data
+#'
+#' @param daily_data_dir
+#' @param monthly_data_dir
+#'
+#' @return
+#' @export
+#'
+#' @examples
 prepare_monthly_data = function(daily_data_dir = NULL,
                                 monthly_data_dir = NULL) {
 

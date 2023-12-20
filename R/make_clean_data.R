@@ -23,8 +23,8 @@ make_clean_data = function(dirs){
   # this is as many csvs as there are months in the data preprocessed
   # Each csv contains 8k spots
   monthly_data_dir = here(dirs$preprocessed_data, "monthly_data")
-  prepare_monthly_data(daily_data_dir = daily_data_dir, monhtly_data_dir =
-                         monthly_data_dir)
+  # prepare_monthly_data(daily_data_dir = daily_data_dir,
+  #                      monthly_data_dir = monthly_data_dir)
 
 
 

@@ -76,7 +76,7 @@ prepare_daily_data = function(raw_data_timestamp=NULL, daily_data_dir = NULL){
   # file with all the dates available ---------------------------------------
   op_index_days = makePath(here(daily_data_dir, "index_days.json"))
   dates_unique_json = jsonlite::toJSON(dates_unique)
-  write(dates_unqie_json, op_index_days)
+  write(dates_unique_json, op_index_days)
 
 
 
