@@ -28,7 +28,4 @@ make_clean_data = function(dirs){
 
 
 
-  # commit to github --------------------------------------------------------
-
-
 }

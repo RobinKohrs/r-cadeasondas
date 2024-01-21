@@ -100,6 +100,12 @@ saveRDS(all, op)
 
 # make clean data --------------------------------------------------------
 rondas::make_clean_data(dirs)
+
+
+# commit to github --------------------------------------------------------
+
+
+
 print(
 glue(
 "
