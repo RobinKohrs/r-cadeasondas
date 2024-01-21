@@ -4,7 +4,7 @@
 \alias{prepare_daily_data}
 \title{Create one file for the ~8k spots per day}
 \usage{
-prepare_daily_data(raw_data_timestamp = NULL, daily_data_dir = NULL)
+prepare_daily_data(dir_raw_download = NULL, dir_daily_data = NULL)
 }
 \arguments{
 \item{dir}{The directory where the data is saved}

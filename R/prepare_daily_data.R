@@ -10,11 +10,11 @@
 #' @export
 #'
 #' @examples
-prepare_daily_data = function(raw_data_timestamp=NULL, daily_data_dir = NULL){
+prepare_daily_data = function(dir_raw_download=NULL, dir_daily_data = NULL){
 
 
   # files -------------------------------------------------------------------
-  raw_files = dir(raw_data_timestamp, ".*\\.Rds", full.names = T)
+  raw_files = dir(dir_raw_download, ".*\\.Rds", full.names = T)
 
   # find all the present days -----------------------------------------------
   dates = str_sub(basename(raw_files), 1, 10)
@@ -24,8 +24,11 @@ prepare_daily_data = function(raw_data_timestamp=NULL, daily_data_dir = NULL){
   # for each date get the data for each spot --------------------------------
   walk(dates_unique, function(d){
 
-    op_that_date = makePath(here(daily_data_dir, "data", glue("{d}.csv")))
-    if(file.exists(op_that_date)) return()
+    op_that_date = makePath(here(dir_daily_data, "data", glue("{d}.csv")))
+    if(file.exists(op_that_date)){
+      print(glue("{d}: exists.."))
+      return()
+    }
 
     # files for that date with all timestampts
     files_that_date = raw_files[str_which(dates, d)]
@@ -74,11 +77,9 @@ prepare_daily_data = function(raw_data_timestamp=NULL, daily_data_dir = NULL){
 
 
   # file with all the dates available ---------------------------------------
-  op_index_days = makePath(here(daily_data_dir, "index_days.json"))
+  op_index_days = makePath(here(dir_daily_data, "index_days.json"))
   dates_unique_json = jsonlite::toJSON(dates_unique)
   write(dates_unique_json, op_index_days)
-
-
 
 
 

@@ -1,26 +1,25 @@
 #' Prepare Monthly data
 #'
-#' @param daily_data_dir
-#' @param monthly_data_dir
+#' @param dir_daily_data
+#' @param dir_monthly_data
 #'
 #' @return
 #' @export
 #'
-#' @examples
-prepare_monthly_data = function(daily_data_dir = NULL,
-                                monthly_data_dir = NULL) {
+prepare_monthly_data = function(dir_daily_data = NULL,
+                                dir_monthly_data = NULL) {
 
  # op dirs
-  op_dir_data = here(monthly_data_dir, "data")
-  if(!dir.exists(op_dir_data)){
-    dir.create(op_dir_data, recursive = T)
+  dir_data_out = here(dir_monthly_data, "data")
+  if(!dir.exists(dir_data_out)){
+    dir.create(dir_data_out, recursive = T)
   }
 
  # list all daily files
-  daily_files = dir(daily_data_dir, ".*\\.csv", full.names = T, recursive = T)
+  files_daily = dir(dir_daily_data, ".*\\.csv", full.names = T, recursive = T)
 
   # get all the days
-  days = basename(daily_files) %>% tools::file_path_sans_ext()
+  days = basename(files_daily) %>% tools::file_path_sans_ext()
 
   # years
   years_months = days %>% str_sub(1,7)
@@ -30,16 +29,17 @@ prepare_monthly_data = function(daily_data_dir = NULL,
   # get the data for each month
   walk(years_months_unique, function(ym){
 
-    op_file_month = here(op_dir_data, glue("{ym}.csv"))
+    op_file_month = here(dir_data_out, glue("{ym}.csv"))
     if(file.exists(op_file_month)){
+      print(glue("{ym} exists..."))
       return()
     }
 
     which_daily_files = which(years_months==ym)
-    daily_files = daily_files[which_daily_files]
+    files_daily_that_month = files_daily[which_daily_files]
 
     # read all the daily files
-    data_all_month = map(daily_files, data.table::fread) %>% bind_rows()
+    data_all_month = map(files_daily_that_month, data.table::fread) %>% bind_rows()
 
     # for each spot find the average
     data_one_month = data_all_month %>%
@@ -68,5 +68,10 @@ prepare_monthly_data = function(daily_data_dir = NULL,
     write_csv(data_one_month, op_file_month)
 
   })
+
+  # file with all the months available ---------------------------------------
+  op_index_months = makePath(here(dir_monthly_data, "index_months.json"))
+  months_unique_json = jsonlite::toJSON(years_months_unique)
+  write(months_unique_json, op_index_months)
 
 }
