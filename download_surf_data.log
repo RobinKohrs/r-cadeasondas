@@ -18631,3 +18631,2664 @@ Run at: 2024-01-21 11:02:03
 2024_01_21: exists..
 Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
 Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-21 12:02:03
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-21 17:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+In addition: There were 32 warnings (use warnings() to see them)
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-21 18:02:02
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-21 19:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-21 20:02:02
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-21 21:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-21 22:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-21 23:02:02
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-22 08:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+In addition: Warning message:
+There were 34 warnings in `filter()`.
+The first warning was:
+ℹ In argument: `case_when(...)`.
+ℹ In group 2438: `_id = "584204204e65fad6a7709533"`, `timestamp =
+  "2024_01_22_08"`.
+Caused by warning in `min()`:
+! no non-missing arguments to min; returning Inf
+ℹ Run `dplyr::last_dplyr_warnings()` to see the 33 remaining warnings. 
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-22 09:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-22 10:02:04
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-22 11:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-22 12:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-22 13:02:04
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-22 14:02:04
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-22 15:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-22 16:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-22 17:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-22 18:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-22 19:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-22 20:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-22 21:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-22 22:02:02
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-22 23:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-23 00:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+In addition: Warning message:
+There were 55 warnings in `filter()`.
+The first warning was:
+ℹ In argument: `case_when(...)`.
+ℹ In group 2356: `_id = "584204204e65fad6a77094d8"`, `timestamp =
+  "2024_01_23_00"`.
+Caused by warning in `min()`:
+! no non-missing arguments to min; returning Inf
+ℹ Run `dplyr::last_dplyr_warnings()` to see the 54 remaining warnings. 
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-23 01:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+2024_01_23: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-23 02:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+2024_01_23: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-23 03:02:04
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+2024_01_23: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-23 04:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+2024_01_23: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-23 05:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+2024_01_23: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-23 06:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+2024_01_23: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-23 07:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+2024_01_23: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-23 08:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+2024_01_23: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-23 09:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+2024_01_23: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-23 13:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+2024_01_23: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-23 14:02:02
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+2024_01_23: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-23 15:02:02
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+2024_01_23: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-23 16:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+2024_01_23: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-23 17:02:03
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+2024_01_23: exists..
+Error: 'prepare_monthly_data' is not an exported object from 'namespace:rondas'
+Execution halted

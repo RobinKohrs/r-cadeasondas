@@ -6,7 +6,7 @@ library(rajudas)
 library(jsonlite)
 suppressMessages(library(lubridate))
 suppressMessages(library(devtools))
-library(rondas)
+devtools::load_all()
 
 # setwd("~/projects/personal/r/2023/rondas/")
 # devtools::load_all()
@@ -99,11 +99,11 @@ if(!dir.exists(dirname(op))){
 saveRDS(all, op)
 
 # make clean data --------------------------------------------------------
-rondas::make_clean_data(dirs)
+make_clean_data(dirs)
+
 
 
 # commit to github --------------------------------------------------------
-
 
 
 print(
