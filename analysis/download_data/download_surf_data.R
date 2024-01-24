@@ -6,7 +6,8 @@ library(rajudas)
 library(jsonlite)
 suppressMessages(library(lubridate))
 suppressMessages(library(devtools))
-devtools::load_all()
+suppressMessages(library(rondas))
+# devtools::load_all()
 
 # setwd("~/projects/personal/r/2023/rondas/")
 # devtools::load_all()
@@ -46,6 +47,7 @@ regions_data = vector("list", length(length(cells)))
 
 suppressWarnings({
   for (i in seq_along(cells)) {
+    print(i)
     # cell
     cell = cells[[i]]
 
@@ -74,7 +76,6 @@ suppressWarnings({
 
   }
 })
-
 # filter out nas
 regions_data = regions_data[!is.na(regions_data)]
 
@@ -102,8 +103,9 @@ saveRDS(all, op)
 make_clean_data(dirs)
 
 
-
 # commit to github --------------------------------------------------------
+git_cmd = glue("git add -A && git commit -m 'new Data {t}' && git push")
+system(git_cmd)
 
 
 print(
