@@ -104,7 +104,7 @@ make_clean_data(dirs)
 
 
 # commit to github --------------------------------------------------------
-git_cmd = glue("git add -A && git commit -m 'new Data {t}' && git push")
+git_cmd = glue("cd {base_dir} && git add -A && git commit -m 'new Data {t}' && git push")
 system(git_cmd)
 
 
