@@ -1,4 +1,14 @@
+#' Title
+#'
+#' @param d
+#'
+#' @return
+#' @export
+#'
+#' @examples
 forecast_get_data_tide = function(d){
+
+  utc_offset = d$associated$utcOffset
 
   # tides dataframe
   data_tides = d$data$tides %>%

@@ -36790,3 +36790,263 @@ Run at: 2024-01-31 16:02:02
 2023_11 exists...
 2023_12 exists...
 2024_01 exists...
+[main b1495a2] new Data 2024-01-31 16:02:02
+ 114 files changed, 369 insertions(+), 88 deletions(-)
+ rewrite R/prepare_forecast.R (89%)
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a770888d.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a770888e.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a770888f.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708890.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708891.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708892.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708893.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708894.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708895.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708896.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708897.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708898.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708899.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a770889c.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a77088a2.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b2a.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b2c.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b2d.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b2f.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b30.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b31.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b32.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b33.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b34.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b35.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b36.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b37.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b38.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b39.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b3a.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b3b.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b3c.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b3d.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b42.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708da5.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708de0.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708de1.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708de3.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708de4.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708de7.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708df1.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708df2.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708df3.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708df4.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708df5.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708df6.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708df7.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708df8.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708dfa.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708dfb.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708dfc.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708dfd.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708dfe.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708dff.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708e00.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708e01.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708e02.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708e03.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708e04.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708e05.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708e12.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708e13.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708e22.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708e23.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708e24.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708e30.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a7709057.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a7709136.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a7709148.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a7709218.json
+ create mode 100644 data_preprocessed/forecast/584204214e65fad6a7709bde.json
+ create mode 100644 data_preprocessed/forecast/5a983b55ab43c7001a4129d9.json
+ create mode 100644 data_preprocessed/forecast/5a987de6a7eda2001a6aa93b.json
+ create mode 100644 data_preprocessed/forecast/5a9db1d0a7eda2001a6aad6b.json
+ create mode 100644 data_preprocessed/forecast/5c3fc10b1135b1000195fa99.json
+ create mode 100644 data_preprocessed/forecast/601b20b05f02a99e8973f5b7.json
+ create mode 100644 data_preprocessed/forecast/601b285ce17c8b3c17b65e2c.json
+ create mode 100644 data_preprocessed/forecast/60428c564d813d3a2bb40d2c.json
+ create mode 100644 data_preprocessed/forecast/6328ea2e553788088a2ebfdd.json
+ create mode 100644 data_preprocessed/forecast/6335eab2d305aa6b0692cd5f.json
+ create mode 100644 data_preprocessed/forecast/6335ebea693c3404e2a7b850.json
+ create mode 100644 data_preprocessed/forecast/6335ed3996ac630a21de90d7.json
+ create mode 100644 data_preprocessed/forecast/640a2088e92030152096257f.json
+ create mode 100644 data_preprocessed/forecast/640a208a99dd44e1e6fb7b9b.json
+ create mode 100644 data_preprocessed/forecast/640a208db6d7697208498077.json
+ create mode 100644 data_preprocessed/forecast/640a208f4eb375bc348ca82e.json
+ create mode 100644 data_preprocessed/forecast/640a2090e92030fc9896282e.json
+ create mode 100644 data_preprocessed/forecast/640a209299dd446b2efb7da7.json
+ create mode 100644 data_preprocessed/forecast/640a20934eb375e3cc8ca933.json
+ create mode 100644 data_preprocessed/forecast/640a209599dd448fd8fb7e6a.json
+ create mode 100644 data_preprocessed/forecast/640a2096606c453200a8ef14.json
+ create mode 100644 data_preprocessed/forecast/640a2098e9203068129629df.json
+ create mode 100644 data_preprocessed/forecast/640a209a606c45f7e4a8efe1.json
+ create mode 100644 data_preprocessed/forecast/640f37ab326c174fb15b6718.json
+ create mode 100644 data_preprocessed/forecast/640f37b743c1fbf8fd4386a1.json
+ create mode 100644 data_preprocessed/forecast/640f37c26d5ecc82715b1e36.json
+ create mode 100644 data_preprocessed/forecast/640f37d874a71b18f7294fe3.json
+ create mode 100644 data_preprocessed/forecast/640f37e374a71b7f86295289.json
+ create mode 100644 data_preprocessed/forecast/640f37ef326c179b795b7627.json
+ create mode 100644 data_preprocessed/forecast/6418dc67a34c3349c417505f.json
+ create mode 100644 data_preprocessed/forecast/6418dc919a43c4dc6136f3cc.json
+ create mode 100644 data_preprocessed/forecast/6418dd1193265b016717814b.json
+ create mode 100644 data_preprocessed/forecast/6418e2be970272062987bc46.json
+ create mode 100644 data_preprocessed/forecast/6418e2caa34c33681818a7a9.json
+ create mode 100644 data_preprocessed/forecast/644307ceabaf74e0cd52271f.json
+ create mode 100644 data_preprocessed/forecast/6466ad9b1b12f5c98eb72499.json
+ create mode 100644 data_preprocessed/forecast/64bbf6d76914b76a8170b24d.json
+ create mode 100644 data_preprocessed/forecast/653b83b84f42f85b45263e14.json
+ create mode 100644 data_preprocessed/forecast/6542334204e69116d57b4d9e.json
+To github.com:RobinKohrs/r-cadeasondas.git
+   e5c2835..b1495a2  main -> main
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-31 17:02:03
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 42
+[1] 43
+[1] 44
+[1] 45
+[1] 46
+[1] 47
+[1] 48
+[1] 49
+[1] 50
+[1] 51
+[1] 52
+[1] 53
+[1] 54
+[1] 55
+[1] 56
+[1] 57
+[1] 58
+[1] 59
+[1] 60
+[1] 61
+[1] 62
+[1] 63
+[1] 64
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+2024_01_23: exists..
+2024_01_24: exists..
+2024_01_25: exists..
+2024_01_26: exists..
+2024_01_27: exists..
+2024_01_28: exists..
+2024_01_29: exists..
+2024_01_30: exists..
+2024_01_31: exists..
+2023_11 exists...
+2023_12 exists...
+2024_01 exists...

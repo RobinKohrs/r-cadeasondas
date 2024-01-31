@@ -1,3 +1,13 @@
+#' Download Forecast data
+#'
+#' @param path_all_spots
+#' @param interval
+#' @param output_dir
+#'
+#' @return
+#' @export
+#'
+#' @examples
 prepare_forecast = function(path_all_spots = "~/projects/personal/r/2023/rondas/output/all_spots/all_spots.csv",
                             interval=3,
                             output_dir="~/projects/personal/r/2023/rondas/data_preprocessed/forecast") {
@@ -6,13 +16,16 @@ prepare_forecast = function(path_all_spots = "~/projects/personal/r/2023/rondas/
   # read all spots
   data_all_spots = read_csv(path_all_spots)
 
+  # safe version of queriying data ------------------------------------------
+  safe_from_json = purrr::safely(jsonlite::fromJSON)
+
   # for each spot get all the forecasts
   walk(seq_along(1:nrow(data_all_spots)), function(r) {
 
     print(r)
 
     # one spot
-    row = data_all_spots[r, ]
+    row = data_all_spots[r,]
 
     # its id
     spot_id = row$id
@@ -37,7 +50,7 @@ prepare_forecast = function(path_all_spots = "~/projects/personal/r/2023/rondas/
       "https://services.surfline.com/kbyg/spots/forecasts/rating?spotId={spot_id}&days=5&intervalHours={interval}&cacheEnabled=true"
     )
 
-    urls = list(wave = wave_url)
+    urls = list(wave = wave_url, rating = rating_url)
     # tide = tide_url)
     # weather = weather_url,
     # wind = wind_url,
@@ -45,7 +58,7 @@ prepare_forecast = function(path_all_spots = "~/projects/personal/r/2023/rondas/
 
     # get the actual data
     dd = imap(urls, function(url, nm) {
-      response = save_from_json(url)
+      response = safe_from_json(url)
 
       # if something goes wrong in fetching the json
       if (!is.null(response$error)) {
@@ -71,7 +84,7 @@ prepare_forecast = function(path_all_spots = "~/projects/personal/r/2023/rondas/
     dd = dd[!is.na(dd)]
 
     # utc offset spot
-    utc_offset_spot = dd[[1]]$data[[1]]$utcOffset
+    utc_offset_spot = dd$wave$data[[1]]$utcOffset[[1]]
 
 
     # format data for each spot
@@ -81,7 +94,8 @@ prepare_forecast = function(path_all_spots = "~/projects/personal/r/2023/rondas/
       split(.$timestamp)
 
     timestamps_local = names(per_timestamp) %>% map_dbl(function(x)
-      as.numeric(x) + (utc_offset * 60 * 60))
+      as.numeric(x) + (utc_offset_spot * 60 * 60))
+
     names(per_timestamp) = timestamps_local
 
     per_timestamp_variable = map(per_timestamp, function(x) {
@@ -101,5 +115,5 @@ prepare_forecast = function(path_all_spots = "~/projects/personal/r/2023/rondas/
 
   })
 
-
+  toc()
 }

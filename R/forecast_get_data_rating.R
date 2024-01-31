@@ -1,4 +1,13 @@
+#' Title
+#'
+#' @param d
+#'
+#' @return
+#' @export
+#'
+#' @examples
 forecast_get_data_rating = function(d){
+  utc_offset = d$data$rating$utcOffset[[1]]
 
   # tides dataframe
   data_rating = d$data$rating %>%
