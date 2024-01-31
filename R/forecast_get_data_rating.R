@@ -3,6 +3,7 @@ forecast_get_data_rating = function(d){
   # tides dataframe
   data_rating = d$data$rating %>%
     unnest(rating, names_sep = "__") %>%
+    mutate(timestamp_local = timestamp + (utc_offset * 60 * 60)) %>%
     nest(data = -timestamp) %>%
     mutate(variable = "rating")
 

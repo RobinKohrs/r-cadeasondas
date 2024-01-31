@@ -1,88 +1,105 @@
 prepare_forecast = function(path_all_spots = "~/projects/personal/r/2023/rondas/output/all_spots/all_spots.csv",
-                            interval=3) {
+                            interval=3,
+                            output_dir="~/projects/personal/r/2023/rondas/data_preprocessed/forecast") {
 
 
   # read all spots
   data_all_spots = read_csv(path_all_spots)
 
   # for each spot get all the forecasts
-  walk(seq_along(1:nrow(data_all_spots)), function(r){
+  walk(seq_along(1:nrow(data_all_spots)), function(r) {
 
-   # one spot
-   row = data_all_spots[r,]
+    print(r)
 
-   # its id
-   spot_id = row$id
+    # one spot
+    row = data_all_spots[r, ]
 
-   #urls
-   wave_url = glue("https://services.surfline.com/kbyg/spots/forecasts/wave?spotId={spot_id}&days=5&intervalHours={interval}&cacheEnabled=true&units%5BswellHeight%5D=M&units%5BwaveHeight%5D=M")
-   tide_url = glue("https://services.surfline.com/kbyg/spots/forecasts/tides?spotId={spot_id}&days=5&cacheEnabled=true&units%5BtideHeight%5D=M")
-   weather_url = glue("https://services.surfline.com/kbyg/spots/forecasts/weather?spotId={spot_id}&days=5&intervalHours={interval}&cacheEnabled=true&units%5Btemperature%5D=C")
-   wind_url = glue("https://services.surfline.com/kbyg/spots/forecasts/wind?spotId={spot_id}&days=5&intervalHours={interval}&corrected=false&cacheEnabled=true&units%5BwindSpeed%5D=KTS")
-   sunlight_url = glue("https://services.surfline.com/kbyg/spots/forecasts/sunlight?spotId={spot_id}&days=5&intervalHours={interval}")
-   rating_url = glue("https://services.surfline.com/kbyg/spots/forecasts/rating?spotId={spot_id}&days=5&intervalHours={interval}&cacheEnabled=true")
+    # its id
+    spot_id = row$id
 
-   urls = list(
-     wave = wave_url,
-     rating = rating_url,
-     tide = tide_url
-     # weather = weather_url,
-     # wind = wind_url,
-     # sunlight = sunlight_url
-   )
+    #urls
+    wave_url = glue(
+      "https://services.surfline.com/kbyg/spots/forecasts/wave?spotId={spot_id}&days=5&intervalHours={interval}&cacheEnabled=true&units%5BswellHeight%5D=M&units%5BwaveHeight%5D=M"
+    )
+    tide_url = glue(
+      "https://services.surfline.com/kbyg/spots/forecasts/tides?spotId={spot_id}&days=5&cacheEnabled=true&units%5BtideHeight%5D=M"
+    )
+    weather_url = glue(
+      "https://services.surfline.com/kbyg/spots/forecasts/weather?spotId={spot_id}&days=5&intervalHours={interval}&cacheEnabled=true&units%5Btemperature%5D=C"
+    )
+    wind_url = glue(
+      "https://services.surfline.com/kbyg/spots/forecasts/wind?spotId={spot_id}&days=5&intervalHours={interval}&corrected=false&cacheEnabled=true&units%5BwindSpeed%5D=KTS"
+    )
+    sunlight_url = glue(
+      "https://services.surfline.com/kbyg/spots/forecasts/sunlight?spotId={spot_id}&days=5&intervalHours={interval}"
+    )
+    rating_url = glue(
+      "https://services.surfline.com/kbyg/spots/forecasts/rating?spotId={spot_id}&days=5&intervalHours={interval}&cacheEnabled=true"
+    )
 
-   # get the actual data
-   dd = imap(urls, function(url, nm) {
+    urls = list(wave = wave_url)
+    # tide = tide_url)
+    # weather = weather_url,
+    # wind = wind_url,
+    # sunlight = sunlight_url)
 
-     response = save_from_json(url)
+    # get the actual data
+    dd = imap(urls, function(url, nm) {
+      response = save_from_json(url)
 
-     # if something goes wrong in fetching the json
-     if (!is.null(response$error)) {
-       return(NA)
-     }
+      # if something goes wrong in fetching the json
+      if (!is.null(response$error)) {
+        return(NA)
+      }
 
-     # the data
-     data = response$result
+      # the data
+      data = response$result
+      if (is.null(data$data[[1]])) {
+        return(NA)
+      }
 
-     data_formatted = switch(
-       nm,
-       "wave" = forecast_get_data_wave(data),
-       "rating" = forecast_get_data_rating(data),
-       "tide" = forecast_get_data_tide(data)
-     )
 
-     return(data_formatted)
-   })
+      data_formatted = switch(
+        nm,
+        "wave" = forecast_get_data_wave(data),
+        "rating" = forecast_get_data_rating(data),
+        "tide" = forecast_get_data_tide(data)
+      )
+
+      return(data_formatted)
+    })
+    dd = dd[!is.na(dd)]
+
+    # utc offset spot
+    utc_offset_spot = dd[[1]]$data[[1]]$utcOffset
+
+
+    # format data for each spot
+    data_all_vars = list_rbind(dd)
+
+    per_timestamp = data_all_vars %>%
+      split(.$timestamp)
+
+    timestamps_local = names(per_timestamp) %>% map_dbl(function(x)
+      as.numeric(x) + (utc_offset * 60 * 60))
+    names(per_timestamp) = timestamps_local
+
+    per_timestamp_variable = map(per_timestamp, function(x) {
+      x %>% split(.$variable)
+    }) %>% map(function(w) {
+      ww = map(w, function(x)
+        x %>% unnest(data))
+    })
+
+    # write out
+    if (!dir.exists(output_dir)) {
+      dir.create(output_dir, recursive = T)
+    }
+
+    op = glue(here(output_dir, glue("{spot_id}.json")))
+    jsonlite::write_json(per_timestamp_variable, op)
+
   })
-
-
-  # format data for each spot
-  data_all_vars = list_rbind(dd)
-
-  per_timestamp = data_all_vars %>%
-    split(.$timestamp)
-
-  per_timestamp_variable = map(per_timestamp, function(x) {
-    x %>% split(.$variable)
-  }) %>% map(function(w) {
-    ww = map(w, function(x)
-      x %>% unnest(data))
-  })
-
-  # utc offset spot
-  utc_offset_spot = dd$wave$data[[1]]$utcOffset
-
-  # time of query
-
-
-
-
 
 
 }
-
-
-
-
-
-
