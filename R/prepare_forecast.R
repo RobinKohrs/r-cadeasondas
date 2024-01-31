@@ -25,14 +25,14 @@ prepare_forecast = function(path_all_spots = "~/projects/personal/r/2023/rondas/
    urls = list(
      wave = wave_url,
      rating = rating_url,
-     tide = tide_url,
+     tide = tide_url
      # weather = weather_url,
      # wind = wind_url,
      # sunlight = sunlight_url
    )
 
    # get the actual data
-   imap(urls, function(url, nm) {
+   dd = imap(urls, function(url, nm) {
 
      response = save_from_json(url)
 
@@ -51,9 +51,33 @@ prepare_forecast = function(path_all_spots = "~/projects/personal/r/2023/rondas/
        "tide" = forecast_get_data_tide(data)
      )
 
-
+     return(data_formatted)
    })
   })
+
+
+  # format data for each spot
+  data_all_vars = list_rbind(dd)
+
+  per_timestamp = data_all_vars %>%
+    split(.$timestamp)
+
+  per_timestamp_variable = map(per_timestamp, function(x) {
+    x %>% split(.$variable)
+  }) %>% map(function(w) {
+    ww = map(w, function(x)
+      x %>% unnest(data))
+  })
+
+  # utc offset spot
+  utc_offset_spot = dd$wave$data[[1]]$utcOffset
+
+  # time of query
+
+
+
+
+
 
 }
 
