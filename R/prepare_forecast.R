@@ -19,8 +19,8 @@ prepare_forecast = function(path_all_spots = "~/projects/personal/r/2023/rondas/
   # safe version of queriying data ------------------------------------------
   safe_from_json = purrr::safely(jsonlite::fromJSON)
 
-  # for each spot get all the forecasts
-  walk(seq_along(1:nrow(data_all_spots)), function(r) {
+  download_spot = function(r) {
+
 
     print(r)
 
@@ -113,7 +113,11 @@ prepare_forecast = function(path_all_spots = "~/projects/personal/r/2023/rondas/
     op = glue(here(output_dir, glue("{spot_id}.json")))
     jsonlite::write_json(per_timestamp_variable, op)
 
-  })
+  }
 
-  toc()
+  safe_download_spot = purrr::safely(download_spot)
+  # for each spot get all the forecasts
+  walk(seq_along(1:nrow(data_all_spots)), ~function(x){
+    response = safe_download_spot(x)
+  })
 }

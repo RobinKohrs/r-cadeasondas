@@ -37050,3 +37050,463 @@ Run at: 2024-01-31 17:02:03
 2023_11 exists...
 2023_12 exists...
 2024_01 exists...
+[main 1550fc5] new Data 2024-01-31 17:02:03
+ 316 files changed, 652 insertions(+), 115 deletions(-)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a770888d.json (80%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a770888e.json (81%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a770888f.json (81%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708890.json (82%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708891.json (82%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708892.json (82%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708893.json (80%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708894.json (80%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708895.json (81%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708896.json (84%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708897.json (82%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708898.json (82%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708899.json (81%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a770889c.json (84%)
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a770889d.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a770889e.json
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a77088a2.json (81%)
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a77089ad.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a77089ae.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a77089af.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a77089b6.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a77089b7.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a77089b8.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a77089ba.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a77089bb.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a77089bc.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a77089bd.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a77089be.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a77089c0.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a77089c9.json
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708b2a.json (81%)
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b2b.json
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708b2c.json (79%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708b2d.json (78%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708b2f.json (86%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708b30.json (83%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708b31.json (83%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708b32.json (82%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708b33.json (83%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708b34.json (81%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708b35.json (81%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708b36.json (81%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708b37.json (85%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708b38.json (83%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708b39.json (79%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708b3a.json (83%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708b3b.json (86%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708b3c.json (85%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708b3d.json (81%)
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b3f.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b40.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b41.json
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708b42.json (82%)
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708b46.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708d5b.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708d5f.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708d61.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708d62.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708d63.json
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708da5.json (78%)
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708db3.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708db4.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708db5.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708db6.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708db7.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708dbf.json
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708de0.json (80%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708de1.json (87%)
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708de2.json
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708de3.json (81%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708de4.json (81%)
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708de5.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708de6.json
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708de7.json (80%)
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708de8.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708de9.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708dea.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708deb.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708dec.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708ded.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708dee.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708def.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708df0.json
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708df1.json (85%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708df2.json (83%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708df3.json (89%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708df4.json (84%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708df5.json (84%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708df6.json (87%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708df7.json (87%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708df8.json (84%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708dfa.json (83%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708dfb.json (86%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708dfc.json (84%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708dfd.json (84%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708dfe.json (85%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708dff.json (86%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708e00.json (80%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708e01.json (82%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708e02.json (80%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708e03.json (83%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708e04.json (78%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708e05.json (87%)
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708e06.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708e07.json
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708e12.json (89%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708e13.json (87%)
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708e14.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708e15.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708e16.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708e18.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708e19.json
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708e22.json (84%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708e23.json (83%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708e24.json (75%)
+ rewrite data_preprocessed/forecast/5842041f4e65fad6a7708e30.json (80%)
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708e32.json
+ create mode 100644 data_preprocessed/forecast/5842041f4e65fad6a7708fa1.json
+ rewrite data_preprocessed/forecast/584204204e65fad6a7709057.json (85%)
+ rewrite data_preprocessed/forecast/584204204e65fad6a7709136.json (81%)
+ rewrite data_preprocessed/forecast/584204204e65fad6a7709148.json (84%)
+ rewrite data_preprocessed/forecast/584204204e65fad6a7709218.json (82%)
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a7709560.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a7709562.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a7709563.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a7709565.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a7709566.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a7709567.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a7709569.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a770956a.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a770956b.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a770956c.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a770956d.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a770956e.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a7709570.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a770997d.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a7709980.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a7709982.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a7709984.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a770999d.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a77099a8.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a77099ac.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a77099ad.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a77099af.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a77099b0.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a77099b1.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a77099b4.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a77099b5.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a77099b6.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a77099b7.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a77099b8.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a77099b9.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a77099ba.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a77099bb.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a77099bf.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a77099fd.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a77099fe.json
+ create mode 100644 data_preprocessed/forecast/584204204e65fad6a77099ff.json
+ create mode 100644 data_preprocessed/forecast/584204214e65fad6a7709bb9.json
+ create mode 100644 data_preprocessed/forecast/584204214e65fad6a7709bba.json
+ create mode 100644 data_preprocessed/forecast/584204214e65fad6a7709bbb.json
+ rewrite data_preprocessed/forecast/584204214e65fad6a7709bde.json (80%)
+ create mode 100644 data_preprocessed/forecast/584204214e65fad6a7709d25.json
+ create mode 100644 data_preprocessed/forecast/584204214e65fad6a7709d26.json
+ create mode 100644 data_preprocessed/forecast/59b1abae85802b0021bc25f2.json
+ rewrite data_preprocessed/forecast/5a983b55ab43c7001a4129d9.json (80%)
+ rewrite data_preprocessed/forecast/5a987de6a7eda2001a6aa93b.json (83%)
+ rewrite data_preprocessed/forecast/5a9db1d0a7eda2001a6aad6b.json (85%)
+ rewrite data_preprocessed/forecast/5c3fc10b1135b1000195fa99.json (81%)
+ create mode 100644 data_preprocessed/forecast/5e502d5939f578f30180d591.json
+ create mode 100644 data_preprocessed/forecast/5e5033c97818a8bcb2976f75.json
+ create mode 100644 data_preprocessed/forecast/5e5034d3e3517f024160d922.json
+ rewrite data_preprocessed/forecast/601b20b05f02a99e8973f5b7.json (83%)
+ rewrite data_preprocessed/forecast/601b285ce17c8b3c17b65e2c.json (88%)
+ rewrite data_preprocessed/forecast/60428c564d813d3a2bb40d2c.json (85%)
+ create mode 100644 data_preprocessed/forecast/60493024f796349dd9e7b100.json
+ create mode 100644 data_preprocessed/forecast/605218bdf3c1906b0c12e325.json
+ create mode 100644 data_preprocessed/forecast/6080b9e39af296a43d50adb7.json
+ create mode 100644 data_preprocessed/forecast/61e1fa37c7637a379ad82c4f.json
+ create mode 100644 data_preprocessed/forecast/62edbf02cd146e464e382b97.json
+ create mode 100644 data_preprocessed/forecast/63054c33457a151d9cc7d44e.json
+ rewrite data_preprocessed/forecast/6328ea2e553788088a2ebfdd.json (78%)
+ create mode 100644 data_preprocessed/forecast/6328ed0ed05d38031be2733c.json
+ rewrite data_preprocessed/forecast/6335eab2d305aa6b0692cd5f.json (83%)
+ rewrite data_preprocessed/forecast/6335ebea693c3404e2a7b850.json (81%)
+ rewrite data_preprocessed/forecast/6335ed3996ac630a21de90d7.json (81%)
+ create mode 100644 data_preprocessed/forecast/633e09f5b438c03f0dd3dc3b.json
+ rewrite data_preprocessed/forecast/640a2088e92030152096257f.json (84%)
+ rewrite data_preprocessed/forecast/640a208a99dd44e1e6fb7b9b.json (81%)
+ rewrite data_preprocessed/forecast/640a208db6d7697208498077.json (82%)
+ rewrite data_preprocessed/forecast/640a208f4eb375bc348ca82e.json (82%)
+ rewrite data_preprocessed/forecast/640a2090e92030fc9896282e.json (81%)
+ rewrite data_preprocessed/forecast/640a209299dd446b2efb7da7.json (82%)
+ rewrite data_preprocessed/forecast/640a20934eb375e3cc8ca933.json (82%)
+ rewrite data_preprocessed/forecast/640a209599dd448fd8fb7e6a.json (82%)
+ rewrite data_preprocessed/forecast/640a2096606c453200a8ef14.json (79%)
+ rewrite data_preprocessed/forecast/640a2098e9203068129629df.json (79%)
+ rewrite data_preprocessed/forecast/640a209a606c45f7e4a8efe1.json (81%)
+ create mode 100644 data_preprocessed/forecast/640a3f98e920306c6a9dd9c4.json
+ create mode 100644 data_preprocessed/forecast/640a3f9a606c45eb13b0a015.json
+ create mode 100644 data_preprocessed/forecast/640a3f9b99dd443c370330cb.json
+ create mode 100644 data_preprocessed/forecast/640a3f9db6d7699a4e513566.json
+ create mode 100644 data_preprocessed/forecast/640a3f9ee92030d03d9ddb4e.json
+ create mode 100644 data_preprocessed/forecast/640a3fa045190538c19cb0fc.json
+ create mode 100644 data_preprocessed/forecast/640a3fa24eb3751e36945dff.json
+ create mode 100644 data_preprocessed/forecast/640a3fa499dd44a3b1033317.json
+ create mode 100644 data_preprocessed/forecast/640a3fa6b6d7694d295137e9.json
+ create mode 100644 data_preprocessed/forecast/640a3fa8b6d76910e551387d.json
+ create mode 100644 data_preprocessed/forecast/640a3faab6d7692d595138e8.json
+ create mode 100644 data_preprocessed/forecast/640a3fab606c458564b0a46f.json
+ create mode 100644 data_preprocessed/forecast/640a3fad99dd448108033544.json
+ create mode 100644 data_preprocessed/forecast/640a3fae606c453de7b0a53c.json
+ create mode 100644 data_preprocessed/forecast/640a3fb0b6d76903b8513a73.json
+ create mode 100644 data_preprocessed/forecast/640a3fb245190573e49cb57e.json
+ create mode 100644 data_preprocessed/forecast/640a3fb399dd4470f5033737.json
+ create mode 100644 data_preprocessed/forecast/640a3fb645190585df9cb724.json
+ create mode 100644 data_preprocessed/forecast/640a3fb899dd4432a00338f6.json
+ create mode 100644 data_preprocessed/forecast/640a3fbab6d7697657513d96.json
+ create mode 100644 data_preprocessed/forecast/640a3fc0e92030dee69de454.json
+ create mode 100644 data_preprocessed/forecast/640a3fc1606c45473cb0aab8.json
+ create mode 100644 data_preprocessed/forecast/640a3fc3b6d7696190513fe2.json
+ create mode 100644 data_preprocessed/forecast/640a3fc44eb375687f94670c.json
+ create mode 100644 data_preprocessed/forecast/640a3fc6e92030845e9de5a7.json
+ create mode 100644 data_preprocessed/forecast/640a3fc7b6d7691ba75140d7.json
+ create mode 100644 data_preprocessed/forecast/640a3fc999dd44ed16033d0f.json
+ create mode 100644 data_preprocessed/forecast/640a3fcbb6d76977915141bd.json
+ create mode 100644 data_preprocessed/forecast/640a3fcce920304afb9de74f.json
+ create mode 100644 data_preprocessed/forecast/640a3fce4eb375b091946967.json
+ create mode 100644 data_preprocessed/forecast/640a3fd0b6d7690063514311.json
+ create mode 100644 data_preprocessed/forecast/640a3fd1606c457f88b0ae91.json
+ create mode 100644 data_preprocessed/forecast/640a3fd3606c458650b0af12.json
+ create mode 100644 data_preprocessed/forecast/640a3fd44eb3756c89946b15.json
+ create mode 100644 data_preprocessed/forecast/640a5b02e92030c946a4913b.json
+ create mode 100644 data_preprocessed/forecast/640a5b07606c450d95b757b8.json
+ create mode 100644 data_preprocessed/forecast/640f367138476e7217d543f6.json
+ create mode 100644 data_preprocessed/forecast/640f367cd19c66f13d78bafe.json
+ create mode 100644 data_preprocessed/forecast/640f36887966c346f669902a.json
+ create mode 100644 data_preprocessed/forecast/640f369374a71b77392906b5.json
+ create mode 100644 data_preprocessed/forecast/640f369e7966c39e5c69950a.json
+ create mode 100644 data_preprocessed/forecast/640f37683554699ba3bf406f.json
+ create mode 100644 data_preprocessed/forecast/640f37a038476ebadad58891.json
+ rewrite data_preprocessed/forecast/640f37ab326c174fb15b6718.json (87%)
+ rewrite data_preprocessed/forecast/640f37b743c1fbf8fd4386a1.json (83%)
+ rewrite data_preprocessed/forecast/640f37c26d5ecc82715b1e36.json (83%)
+ create mode 100644 data_preprocessed/forecast/640f37cd43c1fb0add438b4e.json
+ rewrite data_preprocessed/forecast/640f37d874a71b18f7294fe3.json (83%)
+ rewrite data_preprocessed/forecast/640f37e374a71b7f86295289.json (82%)
+ rewrite data_preprocessed/forecast/640f37ef326c179b795b7627.json (83%)
+ create mode 100644 data_preprocessed/forecast/640f3853326c175a675b8c07.json
+ create mode 100644 data_preprocessed/forecast/640f385e326c17bf9f5b8f11.json
+ create mode 100644 data_preprocessed/forecast/640f3868326c173e4a5b91a5.json
+ create mode 100644 data_preprocessed/forecast/640f3873326c17facc5b93fb.json
+ create mode 100644 data_preprocessed/forecast/640f387e7966c3e0996a013b.json
+ create mode 100644 data_preprocessed/forecast/640f388974a71b61a92977ad.json
+ create mode 100644 data_preprocessed/forecast/640f38947966c3fa706a061e.json
+ create mode 100644 data_preprocessed/forecast/640f389f326c174bbc5b9e1f.json
+ create mode 100644 data_preprocessed/forecast/640f38aa43c1fb536243bce6.json
+ create mode 100644 data_preprocessed/forecast/640f38b5d19c665d44793afa.json
+ create mode 100644 data_preprocessed/forecast/640f38c0326c176fcc5ba58c.json
+ create mode 100644 data_preprocessed/forecast/640f38cb355469b8fabf8fe4.json
+ create mode 100644 data_preprocessed/forecast/640f38d6d19c6670fc7942a0.json
+ create mode 100644 data_preprocessed/forecast/640f38e13554693e74bf9531.json
+ create mode 100644 data_preprocessed/forecast/640f38ecd19c667b73794775.json
+ create mode 100644 data_preprocessed/forecast/640f38f874a71bf66a29909d.json
+ create mode 100644 data_preprocessed/forecast/640f390235546950babf9c6d.json
+ create mode 100644 data_preprocessed/forecast/640f390dd19c669b25794e95.json
+ create mode 100644 data_preprocessed/forecast/640f39197966c352326a23f6.json
+ create mode 100644 data_preprocessed/forecast/640f392443c1fb0f4243d802.json
+ create mode 100644 data_preprocessed/forecast/640f392f74a71bfa38299c9a.json
+ create mode 100644 data_preprocessed/forecast/640f393ad19c66f0bb795818.json
+ create mode 100644 data_preprocessed/forecast/640f394543c1fb16b543de65.json
+ create mode 100644 data_preprocessed/forecast/640f3950d19c661349795d2e.json
+ create mode 100644 data_preprocessed/forecast/640f395a326c1754895bc709.json
+ create mode 100644 data_preprocessed/forecast/640f3965326c177d0c5bc97d.json
+ create mode 100644 data_preprocessed/forecast/640f3970326c17ae325bcbd8.json
+ create mode 100644 data_preprocessed/forecast/640f397bd19c66bde979664c.json
+ create mode 100644 data_preprocessed/forecast/640f39866d5eccbad35b8254.json
+ create mode 100644 data_preprocessed/forecast/640f3991355469efecbfbbb4.json
+ create mode 100644 data_preprocessed/forecast/640f399c6d5ecc6d6f5b8755.json
+ create mode 100644 data_preprocessed/forecast/640f39a738476e4a60d5fb4d.json
+ create mode 100644 data_preprocessed/forecast/640f39b37966c359256a4441.json
+ create mode 100644 data_preprocessed/forecast/640f39be7966c31d4a6a46b6.json
+ create mode 100644 data_preprocessed/forecast/640f39c9326c1774085bdf48.json
+ create mode 100644 data_preprocessed/forecast/640f39d46d5ecc2d615b933c.json
+ create mode 100644 data_preprocessed/forecast/640f39e07966c310956a4e6e.json
+ create mode 100644 data_preprocessed/forecast/640f39ea43c1fb6f724402aa.json
+ create mode 100644 data_preprocessed/forecast/640f39f5326c17a6385be8ed.json
+ create mode 100644 data_preprocessed/forecast/640f3a01326c1785d85bebc9.json
+ create mode 100644 data_preprocessed/forecast/640f3a0b355469e09bbfd663.json
+ create mode 100644 data_preprocessed/forecast/640f3a166d5ecc852c5ba231.json
+ create mode 100644 data_preprocessed/forecast/640f3a38355469d947bfe18c.json
+ create mode 100644 data_preprocessed/forecast/640f3a43326c17c6855bfc62.json
+ create mode 100644 data_preprocessed/forecast/640f3a4e326c174f945bfe8e.json
+ create mode 100644 data_preprocessed/forecast/640f3a5938476e82b9d6246d.json
+ create mode 100644 data_preprocessed/forecast/640f3a6438476e358fd626da.json
+ create mode 100644 data_preprocessed/forecast/640f3a6f43c1fb7bef4421e8.json
+ rewrite data_preprocessed/forecast/6418dc67a34c3349c417505f.json (75%)
+ rewrite data_preprocessed/forecast/6418dc919a43c4dc6136f3cc.json (75%)
+ rewrite data_preprocessed/forecast/6418dd1193265b016717814b.json (79%)
+ create mode 100644 data_preprocessed/forecast/6418dd176478f05439f99dad.json
+ rewrite data_preprocessed/forecast/6418e2be970272062987bc46.json (75%)
+ rewrite data_preprocessed/forecast/6418e2caa34c33681818a7a9.json (82%)
+ create mode 100644 data_preprocessed/forecast/6418e43293265b492e19020f.json
+ rewrite data_preprocessed/forecast/644307ceabaf74e0cd52271f.json (85%)
+ rewrite data_preprocessed/forecast/64bbf6d76914b76a8170b24d.json (84%)
+ rewrite data_preprocessed/forecast/653b83b84f42f85b45263e14.json (84%)
+ rewrite data_preprocessed/forecast/6542334204e69116d57b4d9e.json (83%)
+ create mode 100644 man/forecast_get_data_rating.Rd
+ create mode 100644 man/forecast_get_data_tide.Rd
+ create mode 100644 man/forecast_get_data_wave.Rd
+To github.com:RobinKohrs/r-cadeasondas.git
+   b1495a2..1550fc5  main -> main
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-01-31 18:02:03
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 42
+[1] 43
+[1] 44
+[1] 45
+[1] 46
+[1] 47
+[1] 48
+[1] 49
+[1] 50
+[1] 51
+[1] 52
+[1] 53
+[1] 54
+[1] 55
+[1] 56
+[1] 57
+[1] 58
+[1] 59
+[1] 60
+[1] 61
+[1] 62
+[1] 63
+[1] 64
+2023_11_22: exists..
+2023_11_23: exists..
+2023_11_24: exists..
+2023_11_25: exists..
+2023_11_26: exists..
+2023_11_27: exists..
+2023_11_28: exists..
+2023_11_29: exists..
+2023_11_30: exists..
+2023_12_01: exists..
+2023_12_02: exists..
+2023_12_03: exists..
+2023_12_04: exists..
+2023_12_05: exists..
+2023_12_06: exists..
+2023_12_07: exists..
+2023_12_08: exists..
+2023_12_09: exists..
+2023_12_10: exists..
+2023_12_11: exists..
+2023_12_12: exists..
+2023_12_13: exists..
+2023_12_14: exists..
+2023_12_15: exists..
+2023_12_17: exists..
+2023_12_18: exists..
+2023_12_19: exists..
+2023_12_20: exists..
+2023_12_21: exists..
+2023_12_22: exists..
+2023_12_24: exists..
+2023_12_25: exists..
+2023_12_26: exists..
+2023_12_27: exists..
+2023_12_28: exists..
+2023_12_29: exists..
+2023_12_30: exists..
+2023_12_31: exists..
+2024_01_01: exists..
+2024_01_02: exists..
+2024_01_03: exists..
+2024_01_04: exists..
+2024_01_05: exists..
+2024_01_06: exists..
+2024_01_07: exists..
+2024_01_08: exists..
+2024_01_09: exists..
+2024_01_10: exists..
+2024_01_11: exists..
+2024_01_12: exists..
+2024_01_13: exists..
+2024_01_14: exists..
+2024_01_15: exists..
+2024_01_16: exists..
+2024_01_17: exists..
+2024_01_18: exists..
+2024_01_19: exists..
+2024_01_20: exists..
+2024_01_21: exists..
+2024_01_22: exists..
+2024_01_23: exists..
+2024_01_24: exists..
+2024_01_25: exists..
+2024_01_26: exists..
+2024_01_27: exists..
+2024_01_28: exists..
+2024_01_29: exists..
+2024_01_30: exists..
+2024_01_31: exists..
+2023_11 exists...
+2023_12 exists...
+2024_01 exists...
