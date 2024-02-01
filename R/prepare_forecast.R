@@ -117,7 +117,7 @@ prepare_forecast = function(path_all_spots = "~/projects/personal/r/2023/rondas/
 
   safe_download_spot = purrr::safely(download_spot)
   # for each spot get all the forecasts
-  walk(seq_along(1:nrow(data_all_spots)), ~function(x){
+  walk(seq_along(1:nrow(data_all_spots)), function(x){
     response = safe_download_spot(x)
   })
 }
