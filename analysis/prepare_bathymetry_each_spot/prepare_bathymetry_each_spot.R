@@ -23,7 +23,7 @@ stars_bathy = stars::read_ncdf(path_bathy, proxy = T)
 buffer_meter = 50000
 library(furrr)
 plan(multisession, workers=6)
-future_walk(seq_along(1:nrow(geo_spots)), function(i){
+walk(seq_along(1:nrow(geo_spots)), function(i){
 
   print(i)
   row = geo_spots[i, ]
@@ -45,7 +45,9 @@ future_walk(seq_along(1:nrow(geo_spots)), function(i){
   # extract raster
   cmd = glue("gdalwarp -s_srs 'EPSG:4326' -of GTiff -cutline {tf} -crop_to_cutline {path_bathy} {op_cropped_bathy_spot}")
   system(cmd)
-}, .options = furrr_options(globals = c("path_bathy", "stars_bathy")))
+})
+
+# , .options = furrr_options(packages = c("rajudas", "here", "glue", "sf"), globals = c("path_bathy", "stars_bathy", "geo_spots", "buffer_meter")))
 
 
 # create the contour polygons ---------------------------------------------
