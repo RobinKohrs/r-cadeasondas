@@ -20,10 +20,20 @@ stars_bathy = stars::read_ncdf(path_bathy, proxy = T)
 
 
 # for each point extract 1 degree -----------------------------------------
-buffer_meter = 200000
-for(i in seq_along(1:nrow(geo_spots))){
+buffer_meter = 50000
+library(furrr)
+plan(multisession, workers=6)
+future_walk(seq_along(1:nrow(geo_spots)), function(i){
+
+  print(i)
   row = geo_spots[i, ]
   id = row$id
+  op_cropped_bathy_spot = makePath(here(glue("data_preprocessed/bathys_per_spot/bathy_{id}.tif")))
+
+  if(file.exists(op_cropped_bathy_spot)){
+    return()
+  }
+
   buffer = st_buffer(row, dist=buffer_meter)
 
   # write to tempfile
@@ -31,14 +41,17 @@ for(i in seq_along(1:nrow(geo_spots))){
   write_sf(buffer, tf)
 
   # cropped raster path
-  op_cropped_bathy_spot = makePath(here(glue("data_raw/cropped_bathy_spot/bathy_{id}.tif")))
-  if(file.exists(op_cropped_bathy_spot)){
-    next
-  }
 
   # extract raster
   cmd = glue("gdalwarp -s_srs 'EPSG:4326' -of GTiff -cutline {tf} -crop_to_cutline {path_bathy} {op_cropped_bathy_spot}")
   system(cmd)
+}, .options = furrr_options(globals = c("path_bathy", "stars_bathy")))
 
-}
+
+# create the contour polygons ---------------------------------------------
+
+
+
+
+
 

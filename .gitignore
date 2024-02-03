@@ -3,3 +3,5 @@ data_raw
 per_day
 per_spot
 data_downloaded
+*.tif
+*.tiff
