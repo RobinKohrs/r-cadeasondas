@@ -23,8 +23,10 @@ prepare_daily_data = function(dir_raw_download=NULL, dir_daily_data = NULL){
 
   # for each date get the data for each spot --------------------------------
   walk(dates_unique, function(d){
+    print(d)
 
     op_that_date = makePath(here(dir_daily_data, "data", glue("{d}.csv")))
+    # TODO: THAT IS WRONG! WIll only take the first per day in consideration!
     if(file.exists(op_that_date)){
       print(glue("{d}: exists.."))
       return()
