@@ -39,6 +39,7 @@ prepare_daily_data = function(dir_raw_download=NULL, dir_daily_data = NULL, proc
     # if its not from today
     if(d != today){
       if(d %in% basenames_old_files && !process_old_days){
+        print(glue("Already computed all data for: {d}"))
         return()
       }
     }
@@ -97,7 +98,32 @@ prepare_daily_data = function(dir_raw_download=NULL, dir_daily_data = NULL, proc
 
   # file with all the dates available ---------------------------------------
   op_index_days = makePath(here(dir_daily_data, "index_days.json"))
-  dates_unique_json = jsonlite::toJSON(dates_unique)
+
+  time_here = Sys.time() %>% ymd_hms
+  time_utc = Sys.time() %>% with_tz("UTC") %>% ymd_hms
+  diff_utc_min = difftime(time_utc, time_here) %>% as.numeric() %>% round(0)
+
+  raw_files  %>% data.frame(file = .) %>%
+    mutate(
+      date_time = basename(file) %>% tools::file_path_sans_ext(),
+      date = date_time %>% str_sub(1, 10),
+      hour = date_time %>% str_sub(12, 13)
+    ) %>%
+    group_by(date) %>%
+    summarise(n = n(),
+              latest_hour = last(hour), ) %>%
+    mutate(
+      latest_time = as.POSIXct(
+        glue('{str_replace_all(date, "_", "-")} {latest_hour}:00:00'),
+        tz = Sys.timezone()
+      ),
+      timezone = Sys.timezone(),
+      diff_to_utc_min = diff_utc_min
+    ) %>% select(-latest_hour) -> df_times
+
+
+
+  dates_unique_json = jsonlite::toJSON(df_times)
   write(dates_unique_json, op_index_days)
 
 
