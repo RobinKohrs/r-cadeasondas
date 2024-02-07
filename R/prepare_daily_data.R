@@ -10,11 +10,18 @@
 #' @export
 #'
 #' @examples
-prepare_daily_data = function(dir_raw_download=NULL, dir_daily_data = NULL){
+prepare_daily_data = function(dir_raw_download=NULL, dir_daily_data = NULL, process_old_days=F){
 
 
   # files -------------------------------------------------------------------
   raw_files = dir(dir_raw_download, ".*\\.Rds", full.names = T)
+
+  # prepared files ----------------------------------------------------------
+  dir_daily_data_data = here(dir_daily_data, "data")
+  path_daily_data_dates = here(dir_daily_data, "index_days.json")
+  files_daily_data = dir(dir_daily_data_data, ".*\\.csv$", full.names = T)
+  basenames_old_files = basename(files_daily_data) %>% tools::file_path_sans_ext()
+
 
   # find all the present days -----------------------------------------------
   dates = str_sub(basename(raw_files), 1, 10)
@@ -23,17 +30,23 @@ prepare_daily_data = function(dir_raw_download=NULL, dir_daily_data = NULL){
 
   # for each date get the data for each spot --------------------------------
   walk(dates_unique, function(d){
-    print(d)
+    today = Sys.Date() %>% str_replace_all("-", "_")
 
+
+    # output file
     op_that_date = makePath(here(dir_daily_data, "data", glue("{d}.csv")))
-    # TODO: THAT IS WRONG! WIll only take the first per day in consideration!
-    if(file.exists(op_that_date)){
-      print(glue("{d}: exists.."))
-      return()
+
+    # if its not from today
+    if(d != today){
+      if(d %in% basenames_old_files && !process_old_days){
+        return()
+      }
     }
+
 
     # files for that date with all timestampts
     files_that_date = raw_files[str_which(dates, d)]
+    print(glue("processing: {length(files_that_date)} files for {d}"))
 
     # read all the data
     data_one_day = map(files_that_date, function(f){
@@ -42,6 +55,8 @@ prepare_daily_data = function(dir_raw_download=NULL, dir_daily_data = NULL){
         mutate(timestamp = bn)
     }) %>% bind_rows
 
+    # for each spot and each timestamp take only one swell (the one with the
+    # smallest swells_event number)
     single_swell_per_spot_timestamp = data_one_day %>%
       group_by(`_id`, timestamp) %>%
       distinct(.keep_all = T) %>%
@@ -51,6 +66,7 @@ prepare_daily_data = function(dir_raw_download=NULL, dir_daily_data = NULL){
         ))
 
     rm(data_one_day)
+    # summarise per spot and day
     data_per_day_spot = single_swell_per_spot_timestamp %>%
       mutate(date = str_sub(timestamp, 1, 10)) %>%
       group_by(`_id`, date) %>%
@@ -69,7 +85,8 @@ prepare_daily_data = function(dir_raw_download=NULL, dir_daily_data = NULL){
                                                   T),
         weather_per_timestamp = paste0(weather__condition, collapse = ","),
         wind_per_timestamp = paste0(wind__directionType, collapse = ","),
-        n_samples_per_day = n()
+        n_samples_per_day = n(),
+        .groups = "drop"
       )
     rm(single_swell_per_spot_timestamp)
 

@@ -86,7 +86,9 @@ all = bind_rows(regions_data) %>%
 rm(regions_data)
 
 # create path for the raw data
-time_id = format(Sys.time(), "%Y_%m_%d_%H")
+time = Sys.time()
+timezone = Sys.timezone()
+time_id = format(time, "%Y_%m_%d_%H")
 
 op = glue("{dirs$raw_data}/{time_id}.Rds")
 if(file.exists(op)){
