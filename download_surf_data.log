@@ -66827,3 +66827,9 @@ The first warning was:
 Caused by warning in `min()`:
 ! no non-missing arguments to min; returning Inf
 ℹ Run `dplyr::last_dplyr_warnings()` to see the 1052 remaining warnings. 
+[main c7703fe] new Data 2024-02-11 23:02:03
+ 3 files changed, 9121 insertions(+), 8950 deletions(-)
+To github.com:RobinKohrs/r-cadeasondas.git
+   a455976..c7703fe  main -> main
+Done!
+
