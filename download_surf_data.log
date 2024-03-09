@@ -147239,3 +147239,203 @@ The first warning was:
 Caused by warning in `min()`:
 ! no non-missing arguments to min; returning Inf
 ℹ Run `dplyr::last_dplyr_warnings()` to see the 919 remaining warnings. 
+[main 9f5b5a9] new Data 2024-03-09 23:02:03
+ 3 files changed, 6044 insertions(+), 5845 deletions(-)
+To github.com:RobinKohrs/r-cadeasondas.git
+   0b712d7..9f5b5a9  main -> main
+Done!
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Run at: 2024-03-10 00:02:03
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 42
+[1] 43
+[1] 44
+[1] 45
+[1] 46
+[1] 47
+[1] 48
+[1] 49
+[1] 50
+[1] 51
+[1] 52
+[1] 53
+[1] 54
+[1] 55
+[1] 56
+[1] 57
+[1] 58
+[1] 59
+[1] 60
+[1] 61
+[1] 62
+[1] 63
+[1] 64
+Already computed all data for: 2023_11_22
+Already computed all data for: 2023_11_23
+Already computed all data for: 2023_11_24
+Already computed all data for: 2023_11_25
+Already computed all data for: 2023_11_26
+Already computed all data for: 2023_11_27
+Already computed all data for: 2023_11_28
+Already computed all data for: 2023_11_29
+Already computed all data for: 2023_11_30
+Already computed all data for: 2023_12_01
+Already computed all data for: 2023_12_02
+Already computed all data for: 2023_12_03
+Already computed all data for: 2023_12_04
+Already computed all data for: 2023_12_05
+Already computed all data for: 2023_12_06
+Already computed all data for: 2023_12_07
+Already computed all data for: 2023_12_08
+Already computed all data for: 2023_12_09
+Already computed all data for: 2023_12_10
+Already computed all data for: 2023_12_11
+Already computed all data for: 2023_12_12
+Already computed all data for: 2023_12_13
+Already computed all data for: 2023_12_14
+Already computed all data for: 2023_12_15
+Already computed all data for: 2023_12_17
+Already computed all data for: 2023_12_18
+Already computed all data for: 2023_12_19
+Already computed all data for: 2023_12_20
+Already computed all data for: 2023_12_21
+Already computed all data for: 2023_12_22
+Already computed all data for: 2023_12_24
+Already computed all data for: 2023_12_25
+Already computed all data for: 2023_12_26
+Already computed all data for: 2023_12_27
+Already computed all data for: 2023_12_28
+Already computed all data for: 2023_12_29
+Already computed all data for: 2023_12_30
+Already computed all data for: 2023_12_31
+Already computed all data for: 2024_01_01
+Already computed all data for: 2024_01_02
+Already computed all data for: 2024_01_03
+Already computed all data for: 2024_01_04
+Already computed all data for: 2024_01_05
+Already computed all data for: 2024_01_06
+Already computed all data for: 2024_01_07
+Already computed all data for: 2024_01_08
+Already computed all data for: 2024_01_09
+Already computed all data for: 2024_01_10
+Already computed all data for: 2024_01_11
+Already computed all data for: 2024_01_12
+Already computed all data for: 2024_01_13
+Already computed all data for: 2024_01_14
+Already computed all data for: 2024_01_15
+Already computed all data for: 2024_01_16
+Already computed all data for: 2024_01_17
+Already computed all data for: 2024_01_18
+Already computed all data for: 2024_01_19
+Already computed all data for: 2024_01_20
+Already computed all data for: 2024_01_21
+Already computed all data for: 2024_01_22
+Already computed all data for: 2024_01_23
+Already computed all data for: 2024_01_24
+Already computed all data for: 2024_01_25
+Already computed all data for: 2024_01_26
+Already computed all data for: 2024_01_27
+Already computed all data for: 2024_01_28
+Already computed all data for: 2024_01_29
+Already computed all data for: 2024_01_30
+Already computed all data for: 2024_01_31
+Already computed all data for: 2024_02_01
+Already computed all data for: 2024_02_02
+Already computed all data for: 2024_02_03
+Already computed all data for: 2024_02_04
+Already computed all data for: 2024_02_05
+Already computed all data for: 2024_02_06
+Already computed all data for: 2024_02_07
+Already computed all data for: 2024_02_08
+Already computed all data for: 2024_02_09
+Already computed all data for: 2024_02_10
+Already computed all data for: 2024_02_11
+Already computed all data for: 2024_02_12
+Already computed all data for: 2024_02_13
+Already computed all data for: 2024_02_14
+Already computed all data for: 2024_02_15
+Already computed all data for: 2024_02_16
+Already computed all data for: 2024_02_17
+Already computed all data for: 2024_02_18
+Already computed all data for: 2024_02_19
+Already computed all data for: 2024_02_20
+Already computed all data for: 2024_02_21
+Already computed all data for: 2024_02_22
+Already computed all data for: 2024_02_23
+Already computed all data for: 2024_02_24
+Already computed all data for: 2024_02_25
+Already computed all data for: 2024_02_26
+Already computed all data for: 2024_02_27
+Already computed all data for: 2024_02_28
+Already computed all data for: 2024_02_29
+Already computed all data for: 2024_03_01
+Already computed all data for: 2024_03_02
+Already computed all data for: 2024_03_03
+Already computed all data for: 2024_03_04
+Already computed all data for: 2024_03_05
+Already computed all data for: 2024_03_06
+Already computed all data for: 2024_03_07
+Already computed all data for: 2024_03_08
+Already computed all data for: 2024_03_09
+processing: 1 files for 2024_03_10
+2023_11 exists...
+2023_12 exists...
+2024_01 exists...
+2024_02 exists...
+2024_03 exists...
+Warning message:
+There were 23 warnings in `filter()`.
+The first warning was:
+ℹ In argument: `case_when(...)`.
+ℹ In group 3124: `_id = "584204214e65fad6a7709c7a"`, `timestamp =
+  "2024_03_10_00"`.
+Caused by warning in `min()`:
+! no non-missing arguments to min; returning Inf
+ℹ Run `dplyr::last_dplyr_warnings()` to see the 22 remaining warnings. 
