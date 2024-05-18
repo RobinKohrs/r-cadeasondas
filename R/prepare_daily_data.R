@@ -56,6 +56,11 @@ prepare_daily_data = function(dir_raw_download=NULL, dir_daily_data = NULL, proc
         mutate(timestamp = bn)
     }) %>% bind_rows
 
+    if(!"id" %in% names(data_one_day)) {
+      return()
+    }
+
+
     # for each spot and each timestamp take only one swell (the one with the
     # smallest swells_event number)
     single_swell_per_spot_timestamp = data_one_day %>%
