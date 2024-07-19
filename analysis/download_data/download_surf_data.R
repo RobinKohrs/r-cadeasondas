@@ -7,7 +7,7 @@ library(jsonlite)
 suppressMessages(library(lubridate))
 suppressMessages(library(devtools))
 suppressMessages(library(rondas))
-# devtools::load_all()
+devtools::load_all()
 
 # setwd("~/projects/personal/r/2023/rondas/")
 # devtools::load_all()
@@ -43,7 +43,7 @@ cells = rondas::get_cells(4*4*4)
 safe_fromJSON = purrr::safely(fromJSON)
 
 # get raw data ----------------------------------------------------------------
-regions_data = vector("list", length(length(cells)))
+regions_data = vector("list", length=length(cells))
 
 suppressWarnings({
   for (i in seq_along(cells)) {

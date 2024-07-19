@@ -30,6 +30,7 @@ prepare_daily_data = function(dir_raw_download=NULL, dir_daily_data = NULL, proc
 
   # for each date get the data for each spot --------------------------------
   walk(dates_unique, function(d){
+    print(d)
     today = Sys.Date() %>% str_replace_all("-", "_")
 
 
@@ -56,7 +57,7 @@ prepare_daily_data = function(dir_raw_download=NULL, dir_daily_data = NULL, proc
         mutate(timestamp = bn)
     }) %>% bind_rows
 
-    if(!"id" %in% names(data_one_day)) {
+    if(!"_id" %in% names(data_one_day)) {
       return()
     }
 
