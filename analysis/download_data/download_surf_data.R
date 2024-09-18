@@ -7,6 +7,7 @@ library(jsonlite)
 suppressMessages(library(lubridate))
 suppressMessages(library(devtools))
 suppressMessages(library(rondas))
+setwd("~/projects/personal/r/2023/rondas/")
 devtools::load_all()
 
 # setwd("~/projects/personal/r/2023/rondas/")
