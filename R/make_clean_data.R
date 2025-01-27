@@ -26,6 +26,4 @@ make_clean_data = function(dirs){
   #                               dir_daily_data_spot = dir_daily_data_spot)
 
 
-
-
 }
