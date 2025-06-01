@@ -1,0 +1,16 @@
+_id,lat,lon,name,monthly_mean_swell_rating,monthly_mean_wave_height_min,monthly_mean_wave_height_max,monthly_mean_water_temperature_max,monthly_mean_water_temperature_min,n_samples_per_month,wind_times,weather_times
+5842041f4e65fad6a7708e22,57.418,-152.361,Fossil Beach,0,1.58,1.88,7,7,1,Cross-shore_1,LIGHT_RAIN_1
+5842041f4e65fad6a7708e23,59.495,-139.787,Cannon Beach,2,0.76,1.06,9,9,1,Onshore_1,CLOUDY_1
+5842041f4e65fad6a7708e24,57.066,-135.393,The Wall,2,0.06,0.37,8,8,1,Onshore_1,CLEAR_1
+584204204e65fad6a7709136,57.426470239515034,-152.36629,"Kodiak, Alaska",0,1.94,2.24,7,7,1,Onshore_1,LIGHT_RAIN_1
+640a2088e92030152096257f,57.6021,-152.1645,Akbar,0,1.98,2.2,8,8,1,Onshore_1,LIGHT_RAIN_1
+640a208a99dd44e1e6fb7b9b,57.0085,-135.612,Low Island,3,0.65,0.96,8,8,1,Onshore_1,CLEAR_1
+640a208db6d7697208498077,57.0099,-135.634,Shoals Point,3,0.62,0.92,8,8,1,Onshore_1,CLEAR_1
+640a208f4eb375bc348ca82e,57.0101,-135.65,Shoals Reef/Wall,3,0.62,0.92,8,8,1,Onshore_1,CLEAR_1
+640a2090e92030fc9896282e,57.1672,-135.755,Port Mary,3,0.72,1.04,8,8,1,Onshore_1,CLEAR_1
+640a209299dd446b2efb7da7,57.0624,-135.844,Kai's Place,3,0.76,1.07,9,9,1,Onshore_1,CLEAR_1
+640a20934eb375e3cc8ca933,57.0399,-135.849,Neva Bay,3,0.76,1.07,9,9,1,Onshore_1,CLEAR_1
+640a209599dd448fd8fb7e6a,57.0492,-135.854,Red Tree Reef,3,0.76,1.07,9,9,1,Onshore_1,CLEAR_1
+640a2096606c453200a8ef14,57.3734,-135.767,Good Rats,3,0.72,1.04,8,8,1,Onshore_1,CLEAR_1
+640a2098e9203068129629df,57.3013,-135.831,Sealion Cove,3,0.65,0.98,8,8,1,Onshore_1,CLEAR_1
+640a209a606c45f7e4a8efe1,57.0754,-135.373,"Sandy Beach - Sitka, Alaska",3,0.65,0.96,8,8,1,Onshore_1,CLEAR_1
