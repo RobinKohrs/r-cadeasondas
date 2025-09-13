@@ -1,0 +1,9 @@
+# flyctl launch added from .gitignore
+**/data_raw
+**/.Rproj.user
+**/per_day
+**/per_spot
+**/data_downloaded
+**/*.tif
+**/*.tiff
+fly.toml
