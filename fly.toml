@@ -1,22 +1,19 @@
-# fly.toml app configuration file generated for r-cadeasondas on 2025-09-13T19:28:40+02:00
+# fly.toml app configuration file generated for r-cadeasondas-downloader on 2025-09-13T20:10:58+02:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'r-cadeasondas'
+app = 'r-cadeasondas-downloader'
 primary_region = 'fra'
 
 [build]
 
-[http_service]
-  internal_port = 8000
-  force_https = true
-  auto_stop_machines = 'stop'
-  auto_start_machines = true
-  min_machines_running = 0
-  processes = ['app']
+# This is a background worker, not a web service.
+# We define a persistent process named "app" that runs our downloader script.
+[processes]
+app = "/app/start_downloader.sh Rscript run_downloader.R"
 
 [[vm]]
-  memory = '1gb'
-  cpu_kind = 'shared'
-  cpus = 1
+memory = '1gb'
+cpu_kind = 'shared'
+cpus = 1
