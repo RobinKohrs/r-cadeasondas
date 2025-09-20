@@ -1,0 +1,32 @@
+[
+  {
+    "spotId": "5842041f4e65fad6a7708b57",
+    "spotName": "Zarautz",
+    "maxRating": 4,
+    "waterTemp": 21
+  },
+  {
+    "spotId": "5842041f4e65fad6a7708b58",
+    "spotName": "Strandhill",
+    "maxRating": 4,
+    "waterTemp": 15
+  },
+  {
+    "spotId": "5842041f4e65fad6a7708bc1",
+    "spotName": "Reef",
+    "maxRating": 4,
+    "waterTemp": 20
+  },
+  {
+    "spotId": "5842041f4e65fad6a7708bc2",
+    "spotName": "Ribeira D'Ilhas",
+    "maxRating": 4,
+    "waterTemp": 20
+  },
+  {
+    "spotId": "5842041f4e65fad6a7708bc3",
+    "spotName": "Supertubos",
+    "maxRating": 4,
+    "waterTemp": 20
+  }
+]
