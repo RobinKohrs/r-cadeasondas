@@ -12,21 +12,21 @@
     "waterTemp": 15
   },
   {
-    "spotId": "5842041f4e65fad6a7708bc1",
-    "spotName": "Reef",
+    "spotId": "5842041f4e65fad6a7708c3a",
+    "spotName": "Tullan Strand",
     "maxRating": 4,
-    "waterTemp": 20
+    "waterTemp": 15
   },
   {
-    "spotId": "5842041f4e65fad6a7708bc2",
-    "spotName": "Ribeira D'Ilhas",
+    "spotId": "5842041f4e65fad6a7708c3b",
+    "spotName": "Bundoran",
     "maxRating": 4,
-    "waterTemp": 20
+    "waterTemp": 15
   },
   {
-    "spotId": "5842041f4e65fad6a7708bc3",
-    "spotName": "Supertubos",
+    "spotId": "5842041f4e65fad6a7708c3c",
+    "spotName": "Mullaghmore Strand",
     "maxRating": 4,
-    "waterTemp": 20
+    "waterTemp": 15
   }
 ]
